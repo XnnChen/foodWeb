@@ -1,0 +1,119 @@
+
+h4, h5, h6,
+h1, h2, h3 {margin-top: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+html,body input[type="text"],body input[type="password"]{
+	outline:none;
+}
+/*--- Header Part Starts Here ---*/
+.header{
+	background:url(../images/bg.jpg)no-repeat ;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	-moz-background-size: cover;
+	padding:1em 0;
+	min-height:800px;
+}
+.logo{
+	float:left;
+}
+.menu{
+	float:right;
+	margin-top:3em;;
+}
+/*--//header-welcome-note--*/
+button.navig{
+	width:24px;
+	height:24px;
+	background:url(../images/nav.png);
+	display: block;
+	outline: none;
+	border:0;
+	float: left;
+	margin: -5px 10px;
+}
+a#activator {
+	margin: 0 10px;
+}
+ul.menu-top{
+	float: left;
+}
+ul.menu-top li{
+	display: inline-block;
+	margin:0px 10px;
+}
+ul.menu-top li a{
+	text-decoration: none;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:18px;
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+}
+ul.menu-top li a:hover{
+	color:#163035;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.header-bottom {
+	text-align:center;
+	padding:10em 0 0;
+}
+.header-bottom p{
+	font-style:italic;
+	font-weight:400;
+	color:rgba(255, 255, 255, 0.7);
+	font-size: 2.5em;
+	font-family:Times;
+	margin:0px;
+	padding:0px;
+}
+.header-bottom h1{
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	color:#fff;
+	margin:0px;
+	font-size:100px;
+	padding:0px;
+	margin:0 0 0.5em 0;
+}
+.header-bottom a{
+	background:none;
+	padding:20px 50px;
+	text-transform:uppercase;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	font-size:18px;
+	text-decoration: none;
+	border:2px solid #fff;
+}
+.header-bottom a:hover{
+	border:2px solid #163035;
+	color:#163035;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.header-bottom p.reward{
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	color:#fff;
+	font-size:16px;
+	font-style: inherit;
+	padding:4em 0;
+}
+.header-bottom p.reward u{
+	font-weight:700;
+}
+/*--- Header Part Ends Here ---*/
